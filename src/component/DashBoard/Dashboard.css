@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.deshboard-page {
+  width: 100%;
+  height: 100vh;
+  /* background-color: lightgreen; */
+}
+
+.deshboard-page-header {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 1rem;
+}
+
+.deshboard-page-nav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 2rem;
+  width: 100%;
+  padding: 3rem 5rem;
+}
+
+.deshboard-page-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 3px;
+}
+
+.deshboard-page-nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.side-nav,
+.side-nav1 {
+  position: absolute;
+  height: 100vh;
+  width: 20rem;
+  background-color: lightgreen;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  left: -20rem;
+  transition: .3s;
+}
+
+.side-nav1 {
+  left: 0px;
+}
+
+.deshboard-footer {
+  position: fixed;
+  border-top: 1px solid grey;
+  bottom: 0px;
+  width: 100%;
+  height: 4rem;
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}

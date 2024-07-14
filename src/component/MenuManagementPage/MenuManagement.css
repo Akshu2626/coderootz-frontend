@@ -1,0 +1,80 @@
+/* MenuManagement.css */
+.menu-management-page {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-management-page h2,
+  .menu-management-page h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-management-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-management-form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .menu-management-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .menu-management-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-management-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .menu-management-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-management-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-management-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .menu-management-list li span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin-left: 10px;
+  }
+  

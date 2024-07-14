@@ -1,0 +1,91 @@
+/* UserManagement.css */
+.user-management-page {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-management-page h2,
+  .user-management-page h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-management-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .user-management-form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .user-management-form input[type="text"],
+  .user-management-form input[type="email"],
+  .user-management-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .user-management-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-management-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-management-users {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-management-users li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-management-users li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .user-management-users li.selected {
+    background-color: #e0e0e0;
+  }
+  
+
+  .user-management-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .user-management-li button{
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+  }
