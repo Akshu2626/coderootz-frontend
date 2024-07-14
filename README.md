@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+deployed link : https://coderootz-frontend.vercel.app/
+SuperAdmin : akshu@gmail.com  // password : 12345
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Project Description
+I have created a signup and signin system for user authentication. The application behaves as follows:
 
-In the project directory, you can run:
+Signup and Signin:
 
-### `npm start`
+Users can sign up by filling out a form on the signup page.
+After successfully signing up, users are redirected to the login page.
+Upon logging in, users are directed to the home screen.
+Navigation and Roles:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The home screen features a side navigation bar.
+Regular users see only four dummy menu items in the navigation bar.
+SuperAdmins see all available options in the navigation bar.
+Role Management:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+SuperAdmins can access the Role Management page.
+They can create, update, assign, and delete roles.
+This allows for dynamic control over user permissions and accessible menus.
+User Management:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The User Management page displays data for users who have signed up.
+SuperAdmins can toggle a user's role between Admin and User.
+This provides the flexibility to promote or demote users as needed.
+Personal Experience
+This project was an excellent learning experience, allowing me to implement and understand user authentication,
+role-based access control, and dynamic UI updates. Although I had to attend to some personal tasks and couldn't 
+continue further, the project provided substantial learning and development opportunities.
+New File at / · Akshu2626/coderootz-frontend 
